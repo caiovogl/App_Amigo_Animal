@@ -1,0 +1,23 @@
+# Firebase
+google-services.json
+serviceAccountKey.json
+
+# Android Studio
+local.properties
+.idea/
+*.iml
+
+# Builds
+/build/
+*/build/
+captures/
+app/release/
+*.apk
+
+# Arquivos sensíveis
+*.keystore
+
+# Logs e sistema
+*.log
+.DS_Store
+Thumbs.db

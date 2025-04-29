@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollViewDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+            android:id="@+id/dotsIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            app:dotsColor="@color/orange"
+            app:selectedDotColor="@color/yellow"
+            />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerImagens"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:clipToPadding="false"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profissional que cadastrou:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView android:id="@+id/textProfissional" style="@style/TextItem" />
+        </LinearLayout>
+
+        <!-- Dados do adotante -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dados do Adotante"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView android:id="@+id/textNomeAdotante" style="@style/TextItem" />
+            <TextView android:id="@+id/textEmailAdotante" style="@style/TextItem" />
+            <TextView android:id="@+id/textTelefoneAdotante" style="@style/TextItem" />
+            <TextView android:id="@+id/textLocalizacaoAdotante" style="@style/TextItem" />
+        </LinearLayout>
+
+        <!-- Dados do animal -->
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="Dados do Animal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView android:id="@+id/textTipoAnimal" style="@style/TextItem" />
+            <TextView android:id="@+id/textNomeAnimal" style="@style/TextItem" />
+            <TextView android:id="@+id/textDataAdocao" style="@style/TextItem" />
+            <TextView android:id="@+id/textSexoAnimal" style="@style/TextItem" />
+            <TextView android:id="@+id/textIdadeAnimal" style="@style/TextItem" />
+            <TextView android:id="@+id/textDadosAnimal" style="@style/TextItem" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDocumentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/white"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar cadastro"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excluir cadastro"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</ScrollView>

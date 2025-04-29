@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Amigo Animal</string>
+    <string name="login_title">Faça seu login</string>
+    <string name="signup_title">Cadastrar novo usuário</string>
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="signup_button">Cadastrar</string>
+    <string name="title_activity_home">Cadastros</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sair</string>
+
+    <string name="create_title">Cadastrar nova adoção</string>
+    <string name="create_name">Nome do adotante:</string>
+    <string name="create_email">Email do adotante:</string>
+    <string name="create_phone">Telefone do adotante:</string>
+    <string name="create_animalData">Dados do animal:</string>
+    <string name="create_date">Data da adoção:</string>
+    <string name="create_animalTypeDog">Cachorro</string>
+    <string name="create_animalTypeCat">Gato</string>
+    <string name="button_addImage">Adicionar imagens</string>
+    <string name="button_addDocument">Adicionar Documentos</string>
+
+    <string name="menu_home">Cadastros</string>
+    <string name="menu_gallery">Cadastrar Novo</string>
+    <string name="menu_slideshow">Cadastrar usuário</string>
+</resources>

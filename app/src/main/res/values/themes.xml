@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AmigoAnimal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#e67a1a</item>
+        <item name="colorPrimaryVariant">#f2a905</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AmigoAnimal" parent="Base.Theme.AmigoAnimal" />
+
+    <style name="Theme.AmigoAnimal.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AmigoAnimal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Theme.AmigoAnimal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
