@@ -36,13 +36,30 @@ Este é um aplicativo Android desenvolvido em **Java** usando o **Android Studio
 
 ## 🖼️ Imagens do App
 
-> 💡 (Adicione aqui screenshots ou GIFs para ilustrar)
+### Tela de login
+
+![Image](https://github.com/user-attachments/assets/150667ca-204c-49b9-921d-f8ce68de0b95)
+
+### Tela onde mostra todos os cadastros
+
+![Image](https://github.com/user-attachments/assets/55d49206-8e53-48c1-abed-88d7269819cd)
+
+### Gravação mostrando a tela de detalhes da adoção
+
+https://github.com/user-attachments/assets/2c229491-4395-4e1c-8f59-ca2e4bcd8047
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
 1. Clone este repositório:
+2. Abra no Android Studio
+3. Adicione seu próprio google-services.json para conectar ao Firebase
+4. Execute em um emulador ou dispositivo físico
 
-```bash
-git clone https://github.com/caiovogl/App_Amigo_Animal.git
+📄 Licença
+Este projeto está licenciado sob a MIT License.
+
+👤 Autor
+Caio Vinicius Vogl Bueno
+LinkedIn • GitHub
